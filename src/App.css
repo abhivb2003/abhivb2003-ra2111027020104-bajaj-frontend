@@ -1,0 +1,119 @@
+.app-container {
+  font-family: 'Roboto', sans-serif;
+  max-width: 800px; /* Increased width slightly */
+  margin: 0 auto;
+  padding: 40px; /* Increased padding */
+  background-color: #f9f9f9; /* Light grey background for a softer look */
+  border-radius: 12px; /* More rounded corners */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Darker, more pronounced shadow */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.app-container:hover {
+  background-color: #ffffff; /* Slight color change on hover */
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px; /* Increased bottom margin */
+}
+
+h1 {
+  font-size: 28px; /* Increased font size */
+  color: #2c3e50;
+  letter-spacing: 1px; /* Added letter spacing for a cleaner look */
+}
+
+p {
+  font-size: 15px; /* Increased font size */
+  color: #7f8c8d;
+  line-height: 1.6; /* Improved readability */
+}
+
+.input-section,
+.filter-section,
+.response-section {
+  margin-bottom: 25px; /* Added consistency to spacing */
+}
+
+h2 {
+  font-size: 20px; /* Increased font size */
+  color: #34495e;
+  margin-bottom: 15px; /* Increased space below h2 */
+}
+
+textarea {
+  width: 100%;
+  height: 140px; /* Increased height for more text space */
+  padding: 15px; /* Increased padding */
+  border: 1px solid #dfe6e9;
+  border-radius: 6px; /* More rounded corners */
+  font-size: 15px;
+  margin-bottom: 20px; /* Increased space below textarea */
+  background-color: #f8f9fa;
+  transition: box-shadow 0.3s ease; /* Smooth focus transition */
+}
+
+textarea:focus {
+  box-shadow: 0 0 8px rgba(52, 152, 219, 0.5); /* Added focus effect */
+  outline: none; /* Removed default outline */
+}
+
+input[type="file"] {
+  margin-bottom: 20px;
+}
+
+.submit-btn,
+.filter-btn {
+  display: inline-block;
+  padding: 12px 24px; /* Increased button padding */
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 6px; /* More rounded corners */
+  cursor: pointer;
+  font-size: 15px; /* Slightly increased font size */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Added smooth transition and button hover effect */
+}
+
+.submit-btn:hover,
+.filter-btn:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px); /* Slight "lift" effect on hover */
+}
+
+.response-content {
+  background-color: #f1f2f6;
+  padding: 20px; /* Increased padding */
+  border-radius: 6px; /* More rounded corners */
+  border: 1px solid #dcdde1;
+  margin-top: 15px;
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.response-content:hover {
+  background-color: #e3eaf1; /* Subtle color change on hover */
+}
+
+.response-section p {
+  font-size: 17px; /* Increased font size */
+  margin-bottom: 12px;
+}
+
+.error {
+  color: #e74c3c;
+  font-size: 15px; /* Slightly increased font size */
+  margin-top: 12px; /* Added more space */
+}
+
+.response-section {
+  background-color: #ecf0f1;
+  padding: 25px; /* Increased padding */
+  border-radius: 6px; /* More rounded corners */
+  border: 1px solid #bdc3c7;
+}
+
+.filter-section {
+  margin-top: 25px; /* Increased space above the filter section */
+}
+
